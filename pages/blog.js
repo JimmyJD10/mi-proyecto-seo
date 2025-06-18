@@ -8,7 +8,7 @@ export default function Blog() {
         <meta name="description" content="Lee artículos sobre SEO, optimización web y mejores prácticas en desarrollo con Next.js." />
         <meta property="og:title" content="Blog | Consejos de SEO y Desarrollo Web" />
         <meta property="og:description" content="Artículos y tutoriales para mejorar el SEO y el rendimiento de tu sitio web con Next.js." />
-        <meta property="og:image" content="/images/seo-image.png" />
+        <meta property="og:image" content="/images/blog-image.png" />
         <meta property="og:type" content="article" />
       </Head>
       <div style={{

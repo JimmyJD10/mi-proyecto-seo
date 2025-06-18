@@ -8,7 +8,7 @@ export default function Contacto() {
         <meta name="description" content="Ponte en contacto para consultas sobre SEO, desarrollo web y servicios digitales." />
         <meta property="og:title" content="Contacto | Mi Sitio Optimizado" />
         <meta property="og:description" content="Contáctanos para recibir asesoría en SEO y optimización web con Next.js." />
-        <meta property="og:image" content="/images/seo-image.png" />
+        <meta property="og:image" content="/images/contacto-iamge.png" />
         <meta property="og:type" content="website" />
       </Head>
       <div style={{
