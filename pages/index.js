@@ -1,5 +1,6 @@
 import Head from "next/head";
 import dynamic from "next/dynamic";
+import Image from "next/image";
 
 const DynamicComponent = dynamic(() => import("../components/LargeComponent"), { ssr: false });
 
@@ -29,6 +30,14 @@ export default function Home() {
         <p style={{ color: "#4a5568", fontSize: "18px", marginBottom: "32px" }}>
           Aprende cómo mejorar el rendimiento y SEO en Next.js.
         </p>
+        <Image
+          src="/images/seo-image.png"
+          width={800}
+          height={400}
+          alt="Ejemplo de imagen optimizada"
+          priority
+          style={{ borderRadius: "8px", marginBottom: "32px" }}
+        />
         <DynamicComponent />
       </div>
       <style jsx global>{`
