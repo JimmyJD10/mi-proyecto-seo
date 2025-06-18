@@ -1,7 +1,18 @@
 const BASE_URL = "https://mi-sitio.com";
 
+// Simulación de consulta a base de datos o CMS
+async function getDynamicRoutes() {
+  // Aquí podrías consultar una base de datos real
+  return [
+    "/",
+    "/blog",
+    "/contacto",
+    "/blog/articulo-seo",
+    "/blog/optimizacion-nextjs",
+  ];
+}
 export default async function handler(req, res) {
-  const urls = ["/", "/blog", "/contacto"]; // Agrega más rutas dinámicamente
+  const urls = await getDynamicRoutes();
 
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
   <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
