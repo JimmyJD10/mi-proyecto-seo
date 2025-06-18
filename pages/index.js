@@ -14,6 +14,7 @@ export default function Home() {
         <meta property="og:image" content="/images/seo-image.png" />
         <meta property="og:type" content="website" />
         <meta name="google-site-verification" content="WwwK0yJWq51OIagEKBf--z8o_Kvktoj3YDbzLsFFboA" />
+        <script src="https://analytics.ahrefs.com/analytics.js" data-key="7zq1ruh1pOnwPzw2/odtng" async></script>
       </Head>
 
       <div style={{
