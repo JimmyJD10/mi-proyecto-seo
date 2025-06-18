@@ -16,9 +16,26 @@ export default function Home() {
         <meta name="google-site-verification" content="WwwK0yJWq51OIagEKBf--z8o_Kvktoj3YDbzLsFFboA" />
       </Head>
 
-      <h1>Bienvenido a mi página optimizada</h1>
-      <p>Aprende cómo mejorar el rendimiento y SEO en Next.js.</p>
-      <DynamicComponent />
+      <div style={{
+        maxWidth: "700px",
+        margin: "40px auto",
+        padding: "32px",
+        background: "#fff",
+        borderRadius: "12px",
+        boxShadow: "0 2px 16px rgba(0,0,0,0.08)"
+      }}>
+        <h1 style={{ color: "#1a202c", marginBottom: "16px" }}>Bienvenido a mi página optimizada</h1>
+        <p style={{ color: "#4a5568", fontSize: "18px", marginBottom: "32px" }}>
+          Aprende cómo mejorar el rendimiento y SEO en Next.js.
+        </p>
+        <DynamicComponent />
+      </div>
+      <style jsx global>{`
+        body {
+          background: #f7fafc;
+          font-family: 'Inter', Arial, sans-serif;
+        }
+      `}</style>
     </>
   );
 }
