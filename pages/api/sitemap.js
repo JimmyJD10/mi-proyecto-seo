@@ -1,4 +1,5 @@
-const BASE_URL = "https://mi-sitio.com";
+const BASE_URL = "https://mi-proyecto-seo-git-master-jimmyjd10s-projects.vercel.app";
+
 
 // Simulación de consulta a base de datos o CMS
 async function getDynamicRoutes() {
